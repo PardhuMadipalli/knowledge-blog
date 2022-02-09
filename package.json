@@ -1,0 +1,27 @@
+{
+  "name": "knowledge-blog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "17.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PardhuMadipalli/knowledge-blog.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PardhuMadipalli/knowledge-blog/issues"
+  },
+  "homepage": "https://github.com/PardhuMadipalli/knowledge-blog#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
